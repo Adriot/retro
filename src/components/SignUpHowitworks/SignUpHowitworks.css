@@ -1,0 +1,898 @@
+.display-linebreak {
+    white-space: pre-line;
+    margin-top: 20px;
+
+}
+.signUpHowGrid{
+    font-family: GravityBook;
+    background-color: #001533;
+    width: 100%;
+    padding-top:100px;
+    padding-bottom: 100px;
+
+
+}
+.checkFont1 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.signUpRow{
+    height: 100%;
+}
+
+.countButtons{
+    padding-top: 15px;
+
+}
+
+.welcomeText{
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: unset;
+    font-size: 16px;
+    padding-right: 90px;
+
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.field{
+    margin-top: 10px;
+    padding-left: unset;
+}
+
+input[type="text"] {
+    outline: none;
+    box-shadow:none !important;
+}
+input[type="email"] {
+    outline: none;
+    box-shadow:none !important;
+}
+input[type="password"] {
+    outline: none;
+    box-shadow:none !important;
+}
+.infoText{
+    width: 300px;
+}
+.top {
+    margin: 30px 0;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.We-connect-owners-wi{
+
+}
+.formStyle{
+
+}
+
+.rating-words {
+    text-transform: uppercase;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"] + span {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 15px;
+    height: 15px;
+    margin: -1px 0px 0 0;
+    vertical-align: middle;
+    background: transparent;
+    border: 1px solid #29b9a0;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked + span {
+    background: #29b9a0 -19px top no-repeat;
+}
+
+input[type="checkbox"] + span {
+    margin-right: 4px;
+}
+
+
+
+.btn-default {
+    color: white;
+    text-shadow: 0 0px 0 #fff;
+
+}
+
+.signUpButton{
+    margin-top: 50px;
+    width: 138px;
+    height: 50px;
+    border: solid 0.5px #29b9a0;
+}
+.buttonSign {
+    margin-top: 24px;
+    height: 35px;
+    border: solid 0.5px #29b9a0;
+}
+.signUpButtonAct{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #29b9a0;
+    border-radius: 0px;
+
+}
+.checkFont{
+    font-size: 14px;
+    font-weight: normal;
+}
+.labelFont{
+    font-size: 14px;
+    font-weight: normal;
+}
+.countContainer{
+    display: flex;
+    position: relative;
+
+}
+
+
+.countHeader {
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.countText{
+    font-size: 12px;
+}
+.signUpBtn{
+
+    padding-right: 40px;
+}
+.signUpBtn .btn-default{
+    display: inline-block;
+    background-color: transparent;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 50px;
+    border: solid 0.5px #29b9a0;
+    font-size: 12px;
+    margin-top: unset;
+
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 0px;
+
+}
+.count1{
+    padding-right: 40px;
+}
+.count2 {
+    padding-right: 40px;
+    margin-left: -55px;
+}
+btn-default:focus, .btn-default:hover {
+    background: #29b9a0 0 -15px;
+
+}
+.btn-default:hover {
+    color: #f5f5f5;
+    /* background-color: #e6e6e6; */
+    border-color: #adadad;
+}
+.messageContainer{
+    margin-left: 59.5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 110.1px;
+    margin-right: 47px;
+
+}
+.welcome {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-left: unset;
+    padding-right: unset;
+    padding-top: 110px;
+    height: 100%;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    width: 50%;
+    opacity: 0.6;
+    height: 100%;
+    background-color:#001533;
+}
+.userDetailsCheckbox{
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.checkboxAlignHow{
+    margin-left: 15px;
+    display: flex;
+    position: relative;
+
+}
+.userDetailsInput{
+
+    display: flex;
+    justify-content: space-between;
+}
+.userAgreeTerms{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.termsandCo{
+    color: white;
+    padding-left: unset;
+    font-size: 12px;
+}
+
+
+
+
+@media (min-device-width: 1510px){
+    .signUpHowGrid {
+        background-color: #001533;
+        width: 100%;
+        padding-right: 51px;
+        padding-left: 51px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+    .form-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #001533;
+        opacity: 0.6;
+        width: 50%;
+        height: 1006px;
+    }
+    .carousel-inner > .item > img {
+        position: relative;
+        height: 1006px;
+        width: 100%;
+    }
+    .image-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #2e3192;
+        opacity: 0.35;
+        width: 100%;
+        height:1006px;
+    }
+    .signUpBtn {
+
+
+        margin-top: 25px;
+        padding-right: 15px;
+    }
+    .welcome {
+        padding-top: 60px;
+        font-size: 60px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        padding-left: unset;
+        padding-right: unset;
+        margin-top: 50px;
+        height: 100%;
+    }
+    .welcomeText {
+        text-align: justify;
+        padding-top: 26px;
+        padding-left: unset;
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .checkFont {
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .termsandCo {
+        color: white;
+        padding-left: unset;
+        font-size: 16px;
+    }
+    .field {
+        margin-top: 20px;
+        padding-left: unset;
+    }
+
+}
+
+.box:hover .inner_box {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+@media screen and (max-device-width: 320px) {
+
+    .signUpBtn .btn-default{
+        margin-top: unset;
+    }
+    .signUpHowGrid {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 25px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .welcome {
+        font-size: 25px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        padding-left: unset;
+        padding-right: unset;
+        padding-top: 60px;
+        height: 100%;
+    }
+    .welcomeText {
+        text-align: justify;
+        padding-top: 10px;
+        padding-left: unset;
+        font-size: 12px;
+        padding-right: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .checkFont1 {
+        padding-left: unset;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .termsandCo {
+        color: white;
+        padding-left: unset;
+        font-size: 10px;
+    }
+    .field {
+        margin-top: unset;
+        padding-left: unset;
+    }
+    .form-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #001533;
+        opacity: 0.6;
+        width: 100%;
+        height: 100%;
+    }
+    .count {
+        padding: 15px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        border: 1px solid #5f5f5f;
+        width: 100%;
+        height: 80px;
+    }
+    .countHeader{
+        font-size: 24px;
+        margin-top: unset;
+        margin-bottom: 5px;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 10px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+
+    .signUpBtn {
+        padding-right: 15px;
+        padding-left: unset;
+    }
+    .count1{
+        padding-left: unset;
+        padding-right: unset;
+    }
+    .count2 {
+        padding-left: unset;
+        padding-right: 15px;
+        margin-left: unset;
+    }
+}
+
+
+@media (min-device-width: 321px) and (max-device-width: 375px) {
+    .signUpBtn .btn-default{
+        margin-top: unset;
+    }
+    .signUpHowGrid {
+        width: 100%;
+        padding-right: 30px;
+        padding-left: 40px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+    .welcome {
+        padding-top: 60px;
+        font-size: 28px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        padding-left: unset;
+        padding-right: unset;
+        margin-top: 30px;
+        height: 100%;
+    }
+    .welcomeText {
+        text-align: justify;
+        padding-top: 10px;
+        padding-left: unset;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        padding-right: 15px;
+        color: #ffffff;
+    }
+    .checkFont1 {
+        padding-left: unset;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .termsandCo {
+        color: white;
+        padding-left: unset;
+        font-size: 12px;
+    }
+    .field {
+        margin-top: 10px;
+        padding-left: unset;
+    }
+    .form-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #001533;
+        opacity: 0.6;
+        width: 100%;
+        height: 667px;
+    }
+    .count {
+        padding: 15px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        border: 1px solid #5f5f5f;
+        width: 100%;
+        height: 80px;
+    }
+    .countHeader{
+        font-size: 24px;
+        margin-top: unset;
+        margin-bottom: 5px;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 10px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+    }
+    .signUpBtn {
+        padding-right: 15px;
+    }
+    .count1{
+        padding-left: unset;
+        padding-right: unset;
+    }
+    .count2 {
+        padding-right: 15px;
+        margin-left: unset;
+        padding-left: unset;
+    }
+
+
+
+}
+
+@media (min-device-width: 376px) and (max-device-width: 414px) {
+    .welcomeText {
+        text-align: justify;
+        padding-top: 20px;
+        padding-left: unset;
+        font-size: 16px;
+        padding-right: 10px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .signUpBtn .btn-default{
+        margin-top: unset;
+    }
+    .signUpHowGrid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .form-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #001533;
+        opacity: 0.6;
+        width: 100%;
+        height: 736px;
+    }
+    .carousel-inner > .item > img {
+        position: relative;
+        height: 736px;
+        width: 100%;
+    }
+    .image-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #2e3192;
+        opacity: 0.35;
+        width: 100%;
+        height: 736px;
+    }
+    .signUpBtn {
+        padding-left: unset;
+
+        padding-right: 15px;
+    }
+    .count1{
+        padding-left: unset;
+        padding-right: unset;
+    }
+    .count {
+        padding: 15px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        border: 1px solid #5f5f5f;
+        width: 100%;
+        height: 80px;
+    }
+    .countHeader{
+        margin-top: unset;
+        color: rgb(235, 193, 49);
+        font-size: 24px;
+    }
+    .count2 {
+        padding-right: 15px;
+        margin-left: unset;
+        padding-left: unset;
+    }
+    .checkFont1 {
+        padding-left: unset;
+        font-size: 12px;
+        font-weight: normal;
+    }
+}
+
+@media (min-device-width: 415px) and (max-device-width: 768px) {
+    .signUpBtn .btn-default{
+        margin-top: unset;
+    }
+    .signUpHowGrid {
+        width: 100%;
+        padding-right: 51px;
+        padding-left: 51px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .form-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #001533;
+        opacity: 0.6;
+        width: 100%;
+        height: 1024px;
+    }
+    .carousel-inner > .item > img {
+        position: relative;
+        height: 1024px;
+        width: 100%;
+    }
+    .image-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #2e3192;
+        opacity: 0.35;
+        width: 100%;
+        height: 1024px;
+    }
+    .signUpBtn {
+        padding-left: unset;
+
+        margin-top: 25px;
+        padding-right: 15px;
+    }
+    .welcome {
+        font-size: 40px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        padding-left: unset;
+        padding-right: unset;
+        margin-top: 50px;
+        height: 100%;
+    }
+    .welcomeText {
+        text-align: justify;
+        padding-top: 20px;
+        padding-right: 15px;
+        padding-left: unset;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .checkFont {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .termsandCo {
+        color: white;
+        padding-left: unset;
+        font-size: 14px;
+    }
+    .field {
+        margin-top: 20px;
+        padding-left: unset;
+    }
+    .count1{
+        padding-left: unset;
+        padding-right: unset;
+    }
+    .count {
+        padding: 15px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        border: 1px solid #5f5f5f;
+        width: 100%;
+        height: 80px;
+    }
+
+    .countHeader{
+        margin-top: unset;
+        color: rgb(235, 193, 49);
+        font-size: 24px;
+    }
+    .count2 {
+        padding-right: 15px;
+        margin-left: unset;
+        padding-left: unset;
+    }
+
+}
+
+@media screen and (min-device-width: 1600px) {
+    .signUpBtn .btn-default{
+        margin-top: unset;
+        font-size: 20px;
+    }
+    .signUpHowGrid {
+        width: 100%;
+        padding-right: 51px;
+        padding-left: 51px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .form-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #001533;
+        opacity: 0.6;
+        width: 50%;
+        height: 1024px;
+    }
+    .carousel-inner > .item > img {
+        position: relative;
+        height: 1024px;
+        width: 100%;
+    }
+    .image-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #2e3192;
+        opacity: 0.35;
+        width: 100%;
+        height: 1024px;
+    }
+    .signUpBtn {
+        padding-left: unset;
+
+        margin-top: 25px;
+        padding-right: 15px;
+    }
+    .welcome {
+        font-size: 40px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        padding-left: unset;
+        padding-right: unset;
+        margin-top: 90px;
+        height: 100%;
+    }
+    .welcomeText {
+        text-align: justify;
+        padding-top: 20px;
+        padding-right: 90px;
+        padding-left: unset;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .checkFont {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .termsandCo {
+        color: white;
+        padding-left: unset;
+        font-size: 14px;
+    }
+    .field {
+        margin-top: 20px;
+        padding-left: unset;
+    }
+    .count1{
+        padding-left: unset;
+        padding-right: unset;
+    }
+    .count {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        border: 1px solid #5f5f5f;
+        width: 100%;
+        height: 70px;
+    }
+
+    .countHeader{
+
+        margin-top: 10px;
+        color: rgb(235, 193, 49);
+        font-size: 24px;
+    }
+    .countButtons{
+        padding-top: 15px;
+        padding-right: 80px;
+    }
+
+}

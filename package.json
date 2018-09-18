@@ -1,0 +1,40 @@
+{
+  "name": "parkupp-website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "emotion": "^9.2.6",
+    "nuka-carousel": "^4.3.7",
+    "pure-react-carousel": "^1.13.2",
+    "re-carousel": "^2.0.9",
+    "react": "^16.4.2",
+    "react-alice-carousel": "^1.10.4",
+    "react-avatar": "^3.2.0",
+    "react-bootstrap": "^0.32.3",
+    "react-dom": "^16.4.2",
+    "react-emotion": "^9.2.6",
+    "react-infinite-scroller": "^1.2.0",
+    "react-instagram-embed": "^1.4.0",
+    "react-player": "^1.6.4",
+    "react-router-dom": "^4.3.1",
+    "react-scale-text": "^1.2.2",
+    "react-scripts": "^1.1.5",
+    "react-scroll": "^1.7.10",
+    "react-slick": "^0.23.1",
+    "react-spinners": "^0.4.4",
+    "react-sticky": "^6.0.3",
+    "react-tabs": "^2.2.2",
+    "reactstrap": "^6.4.0",
+    "typeface-quicksand": "^0.0.54",
+    "url-loader": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "aws s3 sync build/ s3://parkupp.co.za"
+  }
+}

@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'GravityBold';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gravity'),
+    url('../../assets/fonts/Gravity-Bold.otf') format('opentype')
+}
+
+
+@font-face {
+    font-family: 'GravityBook';
+    font-style: normal;
+    font-weight: 400;
+    src:
+            local('Gravity'),
+            url('../../assets/fonts/Gravity-Book.otf') format('opentype')
+
+}
+
+
+div#main {
+    background: image("../../assets/images/about_us.jpg");
+}
+
+.nav-bar {
+    position: absolute;
+    top:0px;
+    right: 0px;
+    left: 0px;
+}
+.privacyContainer{    
+    margin-top: -100px;
+    overflow-x: hidden;
+}
+.about-us-content {
+    position: relative;
+    background-color: white;
+    background-size: cover;
+}
+.privacyCard{
+    margin-left: 50px;
+}
+
+.privacy {
+    font-family: GravityBook;
+    background: url("../../assets/images/carouselImages/image2.jpg") no-repeat ;
+    background-position: 100% 43%;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    
+}
+.privacyHeaderText {
+    font-family: GravityBold;
+    text-align: left;
+}
+.privacyRow1 {
+    margin-bottom: -300px;
+}
+.privacyIcon{
+    display: flex;
+    position: absolute;
+    margin-left: -350px;
+    height: 1000px;
+    width: 300px;
+    margin-top: -50px;
+    background-color: transparent;
+}
+
+.privacyLogo {
+    margin-top: 300px;
+    margin-left: 15px;
+}
+.addressline{
+    margin-bottom: 5px;
+}
+.separator{
+    height: 200px;
+}
+.logoText{
+    font-size: 24px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -375px;
+    color: #2bbbad;
+}
+.privacyText{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 20px;
+    text-align: justify;
+    height: 1000px;
+    overflow: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.privacyText::-webkit-scrollbar {
+    width: 10px;
+    height: 50%;
+    
+}
+
+
+.privacyText::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    height: 50%;
+    
+}
+
+.privacyText::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    height: 20px;
+    -webkit-box-shadow: inset 10px 10px 10px rgba(255, 255, 255);
+}
+.footerBorder{    
+    border-top: 1px solid #7d7d7d;    
+
+}
+
+.scroll::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);    
+}
+
+@media only screen  and  (min-width: 1442px) {
+    .privacyCard{
+        background-color: rgb(43, 187, 173);
+        color: rgb(255, 255, 255);
+        height: 1000px;
+        display: flex;
+        align-items: center;
+        margin-top: -60px;
+        margin-left: 50px;
+
+    }
+    .cardText{
+        font-size: 18px;
+        padding: 50px;
+    }
+}
+
+@media (min-width: 580px)  and  (max-width: 1440px) {
+    .aboutUsCard{
+        background-color: rgb(43, 187, 173);
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        margin-top: -60px;
+        margin-left: 50px;
+
+    }
+    .Embed {
+        display: block;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-right: 30px;
+    }
+    .instContainer{
+        width: 700px;
+    }
+    .privacyIcon{
+        height: 300px;
+    }
+
+}
+
+@media only screen  and  (max-width: 568px) {
+    .privacy {
+        background: url("../../assets/images/carouselImages/image2.jpg") no-repeat ;
+        background-position: 100% 43%;
+        background-size: cover;
+        height: 200px;
+        width: 100%;
+        
+    }
+    .privacyContainer{    
+        margin-top: -160px;
+        overflow-x: hidden;
+        margin-left: 20px;
+        margin-right: 20px;        
+    }
+    .privacyCard {
+        margin-left: 0px;            
+    }
+    .privacyLogo {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .privacyHeaderText {
+        font-size: 24px;
+        font-family: GravityBold;
+        text-align: left;
+    }
+    .privacyText{
+        height: 700px;
+        overflow: auto;        
+        margin: 10px;        
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .logoText{
+        font-size: 24px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: -600px;
+        color: #2bbbad;
+    }
+    .privacyLogo {
+        display: none;
+    }
+    .privacyRow1 {
+        margin-bottom: -300px;
+    }
+    .footerBorder{            
+        border-top: 1px solid #7d7d7d;
+    }
+    .privacyText::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .privacyText::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+    }
+
+    .privacyText::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        height: 2px;
+        -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.5);
+    }
+    .indiIconContainer{
+        display: flex;
+        justify-content: center;
+
+    }
+    .instView{
+        padding: unset;
+    }
+    .col-md-6{
+        padding: unset;
+    }
+    .addressline{
+        margin-bottom: 5px;
+    }
+    .privacyIcon {
+        display: -ms-flexbox;
+        display: flex;
+        /* position: absolute; */
+        /* margin-left: -350px; */
+        height: 300px;
+        width: 300px;
+        margin-top: 5px;
+        background-color: transparent;
+    }
+    .prvCont{
+        padding-right: unset;
+        padding-left: unset;
+    }
+
+}

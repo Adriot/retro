@@ -1,0 +1,144 @@
+.react-tabs__tab {
+    /*position: fixed;*/
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid white;
+    /* border-bottom: none; */
+    /* bottom: -1px; */
+    /* padding-right: 10px; */
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    /* flex-direction: column; */
+}
+.header2 {
+    font-family: GravityBold;
+}
+.react-tabs__tab--selected {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 0 0 0 0;
+}
+
+.react-tabs__tab-list {
+    border-bottom: none;
+    padding-right: 50px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.tabContainer{
+    width: 600px;
+    display: flex;
+    height:500px;
+    flex-direction: column;
+    justify-content: center;
+    background-color:transparent;
+}
+.tabStyle{
+    height: 100%;
+}
+.header{
+    font-family: GravityBold;
+    color:white;
+}
+.line-break{
+    white-space: pre-line;
+    font-size: 12px;
+}
+.tabContent{
+    height:180px;
+}
+.message{
+    height:100px;
+}
+
+.how-it-works {
+    font-family: GravityBook;
+    position: relative;
+    z-index: 99;
+}
+
+.car-pic {
+    height: 300px;
+    background: url('../../assets/images/rotating images resized/2/1440x900.jpg') no-repeat ;
+    background-position: 100% 43%;
+    background-size: cover;
+}
+
+.howItWorks-container {
+    background-color: #29b9a0;
+    color: #fff;
+    padding: 51.5px 51.5px 0px 100px;
+    margin-top: -20px;
+}
+
+.sign-up {
+    margin-top: 50px;
+}
+
+.right-checkbox {
+    margin-left: 100px;
+}
+
+@media (max-device-width: 414px) {
+    .car-pic {
+        height: 200px;
+        background: url('../../assets/images/rotating images resized/2/1440x900.jpg') no-repeat ;
+        background-position: 100% 43%;
+        background-size: cover;
+    }
+    .howItWorks-container {
+        background-color: #29b9a0;
+        color: #fff;
+        padding: 0px 0px 0px 0px;
+        margin-top: -20px;
+    }
+
+    .header {
+        margin-top: 70px;
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    .header2 {
+        font-family: GravityBold;
+        margin-top: -30px;
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    .content {
+        margin-bottom: 50px;
+    }
+    .sign-up {
+        margin-top: 50px;
+    }
+    .right-checkbox {
+        margin-left: 0px;
+    }
+}
+
+.nav-bar {
+    position: absolute;
+    top:0px;
+    right: 0px;
+    left: 0px;
+}
+
+.footerBorder{
+    margin-top: 600px;
+    border-top: 1px solid #7d7d7d;
+}
+
+.carPicture {
+    background-image: url('../../assets/images/carouselImages/image2.jpg');
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    height: 200px;
+}
+.fontsize {
+    font-size:16px;
+}
+

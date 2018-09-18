@@ -1,0 +1,6 @@
+export * from './HomePage'
+export * from './Terms'
+export * from './AboutUs'
+export * from './Privacy'
+export * from './Careers'
+export * from './HowItworks'

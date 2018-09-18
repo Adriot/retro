@@ -1,0 +1,399 @@
+
+@font-face {
+    font-family: 'GravityBold';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gravity'),
+    url('../../assets/fonts/Gravity-Bold.otf') format('opentype')
+}
+
+
+@font-face {
+    font-family: 'GravityBook';
+    font-style: normal;
+    font-weight: 400;
+    src:
+            local('Gravity'),
+            url('../../assets/fonts/Gravity-Book.otf') format('opentype')
+
+}
+
+
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow:none;
+    background-color:transparent;
+
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+
+.carousel-control.left {
+    background-image: none;
+}
+.toggleButton {
+    width: 50px;
+    height: 50px;
+    /*position: fixed;*/
+    margin-right: 10px;
+    background-color: transparent;
+    display: inline-block;
+    border: 1px solid white;
+    /* border-bottom: none; */
+    /* bottom: -1px; */
+    /* padding-right: 10px; */
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    /* flex-direction: column; */
+}
+.react-tabs__tab--selected {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 0 0 0 0;
+}
+
+.react-tabs__tab-list {
+    border-bottom: none;
+    padding-right: 50px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.tabContainer{
+    width: 600px;
+    display: flex;
+    height:500px;
+    flex-direction: column;
+    justify-content: center;
+    background-color:transparent;
+}
+.tabStyle{
+    height: 100%;
+}
+
+.header{
+    color:white;
+}
+.line-break{
+    white-space: pre-line;
+    font-size: 12px;
+}
+.tabContent{
+    height:180px;
+}
+.message{
+    height:100px;
+}
+.leanMore{
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    margin-top: unset;
+    background-color: #29b9a0;
+    border: 1px solid white;
+    width:220px;
+    height: 50px;
+
+}
+
+.emptyContainer{
+    height: 60px;
+    padding-top: 65px;
+}
+.howitworks-text{
+
+    height: 500px;
+    margin-left: 25px;
+    margin-top: 80px;
+}
+.howitworkHeader{
+    width: 100%;
+    font-size:36px;
+    color: white;
+}
+.howitworkContent{
+    font-family: GravityBook;
+    width: 100%;
+
+}
+.indicators{
+    margin-top: 64px;
+}
+
+._dot_27k82_1 {
+    width: 1px;
+    height: 1px;
+    margin: 5px;
+    text-indent: -999px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    outline: 0px;
+    font-size: 24px;
+    opacity: 1;
+
+}
+.carousel__dot--selected{
+    width: 1px;
+    height: 1px;
+    margin: 5px;
+    text-indent: -999px;
+    background: white;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    outline: 0px;
+    font-size: 24px;
+    opacity: 1;
+
+}
+
+.control-Buttons{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 84px;
+}
+.howitworks_C{
+    width: 100%;
+    margin-top: 12px;
+    padding-left: unset;
+    height: 200.5px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.typeofService{
+    color: white;
+    font-style:italic;
+    font-size:24px;
+}
+@media screen and (max-device-width: 320px) {
+    .emptyContainer {
+        display: none;
+    }
+    .howitworks-text {
+        margin-left:unset;
+        margin-top: unset;
+    }
+    .howitworkHeader {
+        font-family: GravityBold;
+        width: 100%;
+        font-size: 24px;
+        color: white;
+    }
+    .typeofService {
+        color: white;
+        font-style: italic;
+        font-size: 18px;
+    }
+    .howitworks_C {
+        width: 100%;
+        margin-top: 12px;
+        padding-left: unset;
+        height: 100.5px;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .leanMore {
+        padding: 15px;
+        color: white;
+        font-size: 12px;
+        margin-top: unset;
+        background-color: #29b9a0;
+        border: 1px solid white;
+        width: 120px;
+        height: 50px;
+    }
+    ._horizontalSlider_1rjy8_1{
+        height: 200px;
+    }
+    .indicators{
+        display: none;
+    }
+
+
+
+}
+@media (min-device-width: 321px) and (max-device-width: 375px) {
+    .emptyContainer {
+        display: none;
+    }
+    .howitworks-text {
+        margin-left:unset;
+        margin-top: unset;
+    }
+    .howitworkHeader {
+        width: 100%;
+        font-size: 28px;
+        color: white;
+    }
+    .typeofService {
+        color: white;
+        font-style: italic;
+        font-size: 22px;
+    }
+    .howitworks_C {
+        width: 100%;
+        margin-top: 12px;
+        padding-left: unset;
+        height: 100.5px;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .leanMore {
+        padding: 15px;
+        color: white;
+        font-size: 12px;
+        margin-top: 20px;
+        background-color: #29b9a0;
+        border: 1px solid white;
+        width: 120px;
+        height: 50px;
+    }
+
+    .control-Buttons{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 50px;
+    }
+    ._horizontalSlider_1rjy8_1{
+        height: 200px;
+    }
+    .indicators{
+        display: none;
+    }
+
+}
+@media (min-device-width: 376px) and (max-device-width: 414px) {
+    .emptyContainer {
+        display: none;
+    }
+    .howitworks-text {
+        margin-left:unset;
+        margin-top: unset;
+    }
+    .howitworkHeader {
+        width: 100%;
+        font-size: 32px;
+        color: white;
+    }
+    .typeofService {
+        color: white;
+        font-style: italic;
+        font-size: 24px;
+    }
+    .howitworks_C {
+        width: 100%;
+        margin-top: 12px;
+        padding-left: unset;
+        height: 100.5px;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .leanMore {
+        padding: 15px;
+        color: white;
+        font-size: 12px;
+        margin-top: 50px;
+        background-color: #29b9a0;
+        border: 1px solid white;
+        width: 120px;
+        height: 50px;
+    }
+
+    .control-Buttons{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: unset;
+    }
+    .indicators{
+       display: none;
+    }
+    ._horizontalSlider_1rjy8_1{
+        height: 200px;
+    }
+
+
+}
+
+@media (min-device-width: 415px) and (max-device-width: 768px) {
+    .emptyContainer {
+        display: none;
+    }
+    .howitworks-text {
+        margin-left:unset;
+        margin-top: unset;
+    }
+    .howitworkHeader {
+        width: 100%;
+        font-size: 40px;
+        color: white;
+    }
+    .typeofService {
+        color: white;
+        font-style: italic;
+        font-size: 28px;
+    }
+    .howitworks_C {
+        width: 100%;
+        margin-top: 20px;
+        padding-left: unset;
+        height: 100.5px;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+}
+
+@media screen and (max-device-width: 768px) {
+    .carousel__dot-group{
+        display: none;
+    }
+
+}
